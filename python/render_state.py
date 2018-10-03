@@ -6,9 +6,9 @@ def get_env():
     return Environment(loader=FileSystemLoader("../templates"), trim_blocks=True)
 
 
-def get_template():
+def get_template(template_name):
     j2_env = get_env()
-    return j2_env.get_template("state.html")
+    return j2_env.get_template(template_name)
 
 
 def get_content():
@@ -16,7 +16,18 @@ def get_content():
         return json.load(f)
 
 
-def build_rows(state):
+def write_html(html, file_name):
+
+    full_file_name = "../html/states/%s.html" % file_name
+
+    file = open(full_file_name, "w")
+    file.write(html)
+    file.close()
+
+    print("Wrote file: %s" % full_file_name)
+
+
+def build_plate_rows(state):
     rows = []
     cur_row = []
 
@@ -36,32 +47,59 @@ def build_rows(state):
     return rows
 
 
-def print_states_html():
+def build_landing_rows(states):
+    rows = []
+    cur_row = []
 
-    content = get_content()
+    for i in range(len(states)):
+        cur_row.append(states[i])
+
+        if len(cur_row) == 3:
+            rows.append(cur_row.copy())
+            cur_row = []
+
+    if len(cur_row) > 0:
+        rows.append(cur_row.copy())
+
+    return rows
+
+
+def print_individual_state_pages(states):
 
     # Get template file
-    template = get_template()
+    template = get_template("state.html")
 
-    for state in content["states"]:
+    for state in states:
 
-        rows = build_rows(state)
+        rows = build_plate_rows(state)
 
         html = template.render(
             title="Parked In Brooklyn",
             rows=rows
         )
 
-        # Where to save this rendered HTML
-        file_name = "../html/states/%s.html" % state["short_name"]
-
         # Write HTML to disk
-        file = open(file_name, "w")
-        file.write(html)
-        file.close()
+        write_html(html, state["short_name"])
 
-        print("Wrote %s index file" % file_name)
+
+def print_states_landing_page(states):
+
+    # Get template file
+    template = get_template("states.html")
+
+    # Build rows of data
+    rows = build_landing_rows(states)
+
+    html = template.render(
+        title="Parked In Brooklyn",
+        rows=rows
+    )
+
+    write_html(html, "index")
 
 
 if __name__ == '__main__':
-    print_states_html()
+
+    content = get_content()
+    print_states_landing_page(content["states"])
+    print_individual_state_pages(content["states"])

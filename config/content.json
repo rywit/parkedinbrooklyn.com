@@ -1,4 +1,7 @@
 {"states":[
+	{"short_name": "connecticut", "full_name": "Connecticut", "thumbnail": "standard_commercial.jpg", "photos": [
+		"standard_commercial.jpg"
+	]},
 	{"short_name": "florida", "full_name": "Florida", "thumbnail": "sunshine_state.jpg", "photos": [
 		"sunshine_state.jpg"
 	]},
@@ -6,7 +9,8 @@
 		"standard_2012.jpg"
 	]},
 	{"short_name": "illinois", "full_name": "Illinois", "thumbnail": "standard_2017.jpg", "photos": [
-		"standard_2017.jpg"
+		"standard_2017.jpg",
+		"apportioned.jpg"
 	]},
 	{"short_name": "maryland", "full_name": "Maryland", "thumbnail": "treasure_chesapeake_2004.jpg", "photos": [
 		"treasure_chesapeake_2004.jpg"
@@ -38,8 +42,12 @@
 		"standard_2010_schoolbus.jpg",
 		"war_on_terror.jpg"
 	]},
-	{"short_name": "ohio", "full_name": "Ohio", "thumbnail": "purple_heart.jpg", "photos": [
+	{"short_name": "ohio", "full_name": "Ohio", "thumbnail": "standard_2009.jpg", "photos": [
+		"standard_2009.jpg",
 		"purple_heart.jpg"
+	]},
+	{"short_name": "pennsylvania", "full_name": "Pennsylvania", "thumbnail": "preserve_our_heritage.jpg", "photos": [
+		"preserve_our_heritage.jpg"
 	]},
 	{"short_name": "rhode_island", "full_name": "Rhode Island", "thumbnail": "standard_1996.jpg", "photos": [
 		"standard_1996.jpg"
