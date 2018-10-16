@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+      {% for row in rows %}
+        <div class="row">
+        {% for cell in row %}
+          <div class="col-md-4">
+            <p><img class="plate-thumb" src="/photos/other/{{ cell.file_name }}"></p>
+          </div>
+        {% endfor %}
+        </div>
+      {% endfor %}
+
+{% endblock %}
