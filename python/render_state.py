@@ -1,30 +1,4 @@
-from jinja2 import Environment, FileSystemLoader
-import json
-
-
-def get_env():
-    return Environment(loader=FileSystemLoader("../templates"), trim_blocks=True)
-
-
-def get_template(template_name):
-    j2_env = get_env()
-    return j2_env.get_template(template_name)
-
-
-def get_content():
-    with open("../config/content.json") as f:
-        return json.load(f)
-
-
-def write_html(html, file_name):
-
-    full_file_name = "../html/states/%s.html" % file_name
-
-    file = open(full_file_name, "w")
-    file.write(html)
-    file.close()
-
-    print("Wrote file: %s" % full_file_name)
+import python.renderer as rd
 
 
 def build_plate_rows(state):
@@ -67,7 +41,7 @@ def build_landing_rows(states):
 def print_individual_state_pages(states):
 
     # Get template file
-    template = get_template("state.html")
+    template = rd.get_template("../templates/", "state.html")
 
     for state in states:
 
@@ -79,13 +53,14 @@ def print_individual_state_pages(states):
         )
 
         # Write HTML to disk
-        write_html(html, state["short_name"])
+        full_name = "../html/states/%s.html" % state["short_name"]
+        rd.write_html(html, full_name)
 
 
 def print_states_landing_page(states):
 
     # Get template file
-    template = get_template("states.html")
+    template = rd.get_template("../templates/", "states.html")
 
     # Build rows of data
     rows = build_landing_rows(states)
@@ -95,11 +70,11 @@ def print_states_landing_page(states):
         rows=rows
     )
 
-    write_html(html, "index")
+    rd.write_html(html, "../html/states/index.html")
 
 
 if __name__ == '__main__':
 
-    content = get_content()
+    content = rd.get_content("../config/content.json")
     print_states_landing_page(content["states"])
     print_individual_state_pages(content["states"])

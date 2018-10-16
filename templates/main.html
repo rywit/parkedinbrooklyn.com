@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="row">
+    {% for cell in elems %}
+      <div class="col-md-4 plate-cell">
+        <a href="/{{ cell.href }}" class="plate-link">
+          <h2>{{ cell.title }}</h2>
+          <p><img class="plate-thumb" src="/photos/{{ cell.thumbnail }}"></p>
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+
+{% endblock %}

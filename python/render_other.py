@@ -1,30 +1,4 @@
-from jinja2 import Environment, FileSystemLoader
-import json
-
-
-def get_env():
-    return Environment(loader=FileSystemLoader("../templates"), trim_blocks=True)
-
-
-def get_template(template_name):
-    j2_env = get_env()
-    return j2_env.get_template(template_name)
-
-
-def get_content():
-    with open("../config/content.json") as f:
-        return json.load(f)
-
-
-def write_html(html, file_name):
-
-    full_file_name = "../html/%s/index.html" % file_name
-
-    file = open(full_file_name, "w")
-    file.write(html)
-    file.close()
-
-    print("Wrote file: %s" % full_file_name)
+import python.renderer as rd
 
 
 def build_plate_rows(pics):
@@ -47,7 +21,7 @@ def build_plate_rows(pics):
 def print_other_landing_page(photos):
 
     # Get template file
-    template = get_template("other.html")
+    template = rd.get_template("../templates/", "other.html")
 
     rows = build_plate_rows(photos)
 
@@ -57,10 +31,10 @@ def print_other_landing_page(photos):
     )
 
     # Write HTML to disk
-    write_html(html, "other")
+    rd.write_html(html, "../html/other/index.html")
 
 
 if __name__ == '__main__':
 
-    content = get_content()
+    content = rd.get_content("../config/content.json")
     print_other_landing_page(content["other"])
