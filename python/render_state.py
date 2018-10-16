@@ -26,6 +26,8 @@ def build_landing_rows(states):
     cur_row = []
 
     for i in range(len(states)):
+
+        states[i]["num_photos"] = len(states[i]["photos"])
         cur_row.append(states[i])
 
         if len(cur_row) == 3:
@@ -49,6 +51,8 @@ def print_individual_state_pages(states):
 
         html = template.render(
             title="Parked In Brooklyn",
+            full_name=state["full_name"],
+            href=state["href"],
             rows=rows
         )
 

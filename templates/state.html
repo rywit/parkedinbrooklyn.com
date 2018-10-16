@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
 
+    <div class="subtitle">
+      <h2>{{ full_name }}: <a href="{{ href }}">Wikipedia</a></h2>
+    </div>
+
       {% for row in rows %}
         <div class="row">
         {% for cell in row %}

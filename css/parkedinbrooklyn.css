@@ -13,7 +13,8 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 
-.plate-link h2 {
+.plate-link h2,
+.subtitle h2 {
   font-size: 20px;
   color: #333;
 }

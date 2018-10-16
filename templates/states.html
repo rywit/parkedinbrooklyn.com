@@ -6,7 +6,7 @@
         {% for cell in row %}
           <div class="col-md-4 plate-cell">
             <a href="/states/{{ cell.short_name }}.html" class="plate-link">
-              <h2>{{ cell.full_name }}</h2>
+              <h2>{{ cell.full_name }} ({{ cell.num_photos }})</h2>
               <p><img class="plate-thumb" src="/photos/{{ cell.short_name }}/{{ cell.thumbnail }}"></p>
             </a>
           </div>

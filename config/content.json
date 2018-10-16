@@ -7,51 +7,64 @@
  	"other": ["diplomat.jpg"],
  
  	"states":[
-		{"short_name": "connecticut", "full_name": "Connecticut", "thumbnail": "standard_commercial.jpg", "photos": [
+		{"short_name": "connecticut", "full_name": "Connecticut", "thumbnail": "standard_commercial.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Connecticut", "photos": [
 			"standard_commercial.jpg"
 		]},
-		{"short_name": "florida", "full_name": "Florida", "thumbnail": "sunshine_state.jpg", "photos": [
+		{"short_name": "florida", "full_name": "Florida", "thumbnail": "sunshine_state.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Florida", "photos": [
 			"sunshine_state.jpg"
 		]},
-		{"short_name": "georgia", "full_name": "Georgia", "thumbnail": "standard_2012.jpg", "photos": [
+		{"short_name": "georgia", "full_name": "Georgia", "thumbnail": "standard_2012.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Georgia", "photos": [
 			"standard_2012.jpg"
 		]},
-		{"short_name": "illinois", "full_name": "Illinois", "thumbnail": "standard_2017.jpg", "photos": [
+		{"short_name": "illinois", "full_name": "Illinois", "thumbnail": "standard_2017.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Illinois", "photos": [
 			"standard_2017.jpg",
 			"apportioned.jpg"
 		]},
-		{"short_name": "maine", "full_name": "Maine", "thumbnail": "standard_1999.jpg", "photos": [
+		{"short_name": "maine", "full_name": "Maine", "thumbnail": "standard_1999.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Maine", "photos": [
 			"standard_1999.jpg",
 			"trailer.jpg"
 		]},
-		{"short_name": "maryland", "full_name": "Maryland", "thumbnail": "treasure_chesapeake_2004.jpg", "photos": [
+		{"short_name": "maryland", "full_name": "Maryland", "thumbnail": "treasure_chesapeake_2004.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Maryland", "photos": [
 			"treasure_chesapeake_2004.jpg",
 			"our_farms_our_future_2001.jpg"
 		]},
-		{"short_name": "massachusetts", "full_name": "Massachusetts", "thumbnail": "standard_1987.jpg", "photos": [
+		{"short_name": "massachusetts", "full_name": "Massachusetts", "thumbnail": "standard_1987.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Massachusetts", "photos": [
 			"standard_1987.jpg",
 			"great_white.jpg",
 			"invest_in_children.jpg"
 		]},
-		{"short_name": "minnesota", "full_name": "Minnesota", "thumbnail": "standard_2009.jpg", "photos": [
+		{"short_name": "minnesota", "full_name": "Minnesota", "thumbnail": "standard_2009.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Minnesota", "photos": [
 			"standard_2009.jpg"
 		]},
-		{"short_name": "missouri", "full_name": "Missouri", "thumbnail": "standard_2008.jpg", "photos": [
+		{"short_name": "missouri", "full_name": "Missouri", "thumbnail": "standard_2008.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Missouri", "photos": [
 			"standard_2008.jpg"
 		]},
-		{"short_name": "new_hampshire", "full_name": "New Hampshire", "thumbnail": "standard_1999.jpg", "photos": [
+		{"short_name": "new_hampshire", "full_name": "New Hampshire", "thumbnail": "standard_1999.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Hampshire", "photos": [
 			"standard_1999.jpg"
 		]},
-		{"short_name": "new_jersey", "full_name": "New Jersey", "thumbnail": "standard_2014.jpg", "photos": [
+		{"short_name": "new_jersey", "full_name": "New Jersey", "thumbnail": "standard_2014.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Jersey", "photos": [
 			"standard_2014.jpg",
 			"conserve_wildlife_2007.jpg",
 			"liberty_state_park_1999.jpg",
 			"garden_state.jpg"
 		]},
-		{"short_name": "new_mexico", "full_name": "New Mexico", "thumbnail": "standard_1999.jpg", "photos": [
+		{"short_name": "new_mexico", "full_name": "New Mexico", "thumbnail": "standard_1999.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Mexico", "photos": [
 			"standard_1999.jpg"
 		]},
-		{"short_name": "new_york", "full_name": "New York", "thumbnail": "standard_2010.jpg", "photos": [
+		{"short_name": "new_york", "full_name": "New York", "thumbnail": "standard_2010.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_York", "photos": [
 			"standard_2010.jpg",
 			"city_of_new_york.jpg",
 			"physician.jpg",
@@ -59,31 +72,39 @@
 			"war_on_terror.jpg",
 			"sheriffs_association.jpg"
 		]},
-		{"short_name": "ohio", "full_name": "Ohio", "thumbnail": "standard_2009.jpg", "photos": [
+		{"short_name": "ohio", "full_name": "Ohio", "thumbnail": "standard_2009.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Ohio", "photos": [
 			"standard_2009.jpg",
 			"purple_heart.jpg"
 		]},
-		{"short_name": "pennsylvania", "full_name": "Pennsylvania", "thumbnail": "preserve_our_heritage.jpg", "photos": [
+		{"short_name": "pennsylvania", "full_name": "Pennsylvania", "thumbnail": "preserve_our_heritage.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Pennsylvania", "photos": [
 			"preserve_our_heritage.jpg"
 		]},
-		{"short_name": "rhode_island", "full_name": "Rhode Island", "thumbnail": "standard_1996.jpg", "photos": [
+		{"short_name": "rhode_island", "full_name": "Rhode Island", "thumbnail": "standard_1996.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Rhode_Island", "photos": [
 			"standard_1996.jpg"
 		]},
-		{"short_name": "south_carolina", "full_name": "South Carolina", "thumbnail": "standard_2016.jpg", "photos": [
+		{"short_name": "south_carolina", "full_name": "South Carolina", "thumbnail": "standard_2016.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_South_Carolina", "photos": [
 			"standard_2008.jpg",
 			"standard_2016.jpg",
 			"property_carrying.jpg"
 		]},
-		{"short_name": "washington_dc", "full_name": "Washington DC", "thumbnail": "standard_2013.jpg", "photos": [
+		{"short_name": "washington_dc", "full_name": "Washington DC", "thumbnail": "standard_2013.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Washington,_D.C.", "photos": [
 			"standard_2013.jpg"
 		]},
-		{"short_name": "virginia", "full_name": "Virginia", "thumbnail": "wildflowers.jpg", "photos": [
+		{"short_name": "virginia", "full_name": "Virginia", "thumbnail": "wildflowers.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Virginia", "photos": [
 			"wildflowers.jpg"
 		]},
-		{"short_name": "west_virginia", "full_name": "West Virginia", "thumbnail": "standard_2006.jpg", "photos": [
+		{"short_name": "west_virginia", "full_name": "West Virginia", "thumbnail": "standard_2006.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_West_Virginia", "photos": [
 			"standard_2006.jpg"
 		]},
-		{"short_name": "wisconsin", "full_name": "Wisconsin", "thumbnail": "standard_2000.jpg", "photos": [
+		{"short_name": "wisconsin", "full_name": "Wisconsin", "thumbnail": "standard_2000.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Wisconsin", "photos": [
 			"standard_2006.jpg"
 		]}
 	]
