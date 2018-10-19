@@ -9,7 +9,7 @@
         <div class="row">
         {% for cell in row %}
           <div class="col-md-4">
-            <p><img class="plate-thumb" src="/photos/{{ cell.short_name }}/{{ cell.file_name }}"></p>
+            <p><a href="/photos/{{ cell.short_name }}/{{ cell.file_name }}"><img class="plate-thumb" src="/photos/{{ cell.short_name }}/{{ cell.file_name }}"></a></p>
           </div>
         {% endfor %}
         </div>
