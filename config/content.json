@@ -20,6 +20,10 @@
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Georgia", "photos": [
 			"standard_2012.jpg"
 		]},
+		{"short_name": "idaho", "full_name": "Idaho", "thumbnail": "standard_2008.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Idaho", "photos": [
+			"standard_2008.jpg"
+		]},
 		{"short_name": "illinois", "full_name": "Illinois", "thumbnail": "standard_2017.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Illinois", "photos": [
 			"standard_2017.jpg",
@@ -64,7 +68,8 @@
 			"conserve_wildlife_2007.jpg",
 			"liberty_state_park_1999.jpg",
 			"garden_state.jpg",
-			"standard_commercial.jpg"
+			"standard_commercial.jpg",
+			"price_of_honor.jpg"
 		]},
 		{"short_name": "new_mexico", "full_name": "New Mexico", "thumbnail": "standard_1999.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Mexico", "photos": [
@@ -77,7 +82,8 @@
 			"physician.jpg",
 			"standard_2010_schoolbus.jpg",
 			"war_on_terror.jpg",
-			"sheriffs_association.jpg"
+			"sheriffs_association.jpg",
+			"nyc_sheriff.jpg"
 		]},
 		{"short_name": "ohio", "full_name": "Ohio", "thumbnail": "standard_2009.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Ohio", "photos": [
@@ -101,6 +107,10 @@
 			"standard_2008.jpg",
 			"standard_2016.jpg",
 			"property_carrying.jpg"
+		]},
+		{"short_name": "tennessee", "full_name": "Tennessee", "thumbnail": "standard_2016.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Tennessee", "photos": [
+			"standard_2016.jpg"
 		]},
 		{"short_name": "washington_dc", "full_name": "Washington DC", "thumbnail": "standard_2013.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Washington,_D.C.", "photos": [
