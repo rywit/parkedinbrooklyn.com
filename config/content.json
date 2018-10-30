@@ -1,12 +1,16 @@
 {
 	"main": [
 		{"title": "US States", "href": "states/index.html", "thumbnail": "new_york/standard_2010.jpg"},
-		{"title": "Other", "href": "other/index.html", "thumbnail": "other/diplomat.jpg"}
+		{"title": "Other", "href": "other/index.html", "thumbnail": "other/ontario_standard_1997.jpg"}
 	],
 
- 	"other": ["diplomat.jpg"],
+ 	"other": ["diplomat.jpg", "ontario_standard_1997.jpg"],
  
  	"states":[
+		{"short_name": "arkansas", "full_name": "Arkansas", "thumbnail": "standard_2006.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Arkansas", "photos": [
+			"standard_2006.jpg"
+		]},
 		{"short_name": "connecticut", "full_name": "Connecticut", "thumbnail": "standard_commercial.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Connecticut", "photos": [
 			"standard_commercial.jpg",
@@ -15,11 +19,13 @@
 		{"short_name": "florida", "full_name": "Florida", "thumbnail": "sunshine_state.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Florida", "photos": [
 			"sunshine_state.jpg",
-			"florida_atlantic_university.jpg"
+			"florida_atlantic_university.jpg",
+			"john_lennon_imagine.jpg"
 		]},
 		{"short_name": "georgia", "full_name": "Georgia", "thumbnail": "standard_2012.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Georgia", "photos": [
-			"standard_2012.jpg"
+			"standard_2012.jpg",
+			"veteran.jpg"
 		]},
 		{"short_name": "idaho", "full_name": "Idaho", "thumbnail": "standard_2008.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Idaho", "photos": [
@@ -33,6 +39,10 @@
 		{"short_name": "iowa", "full_name": "Iowa", "thumbnail": "standard_2018.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Iowa", "photos": [
 			"standard_2018.jpg"
+		]},
+		{"short_name": "louisiana", "full_name": "Louisiana", "thumbnail": "bicentennial_2012.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Louisiana", "photos": [
+			"bicentennial_2012.jpg"
 		]},
 		{"short_name": "maine", "full_name": "Maine", "thumbnail": "standard_1999.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Maine", "photos": [
@@ -61,7 +71,8 @@
 		{"short_name": "new_hampshire", "full_name": "New Hampshire", "thumbnail": "standard_1999.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Hampshire", "photos": [
 			"standard_1999.jpg",
-			"disabled_veteran.jpg"
+			"disabled_veteran.jpg",
+			"antique.jpg"
 		]},
 		{"short_name": "new_jersey", "full_name": "New Jersey", "thumbnail": "standard_2014.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Jersey", "photos": [
@@ -71,7 +82,8 @@
 			"garden_state.jpg",
 			"standard_commercial.jpg",
 			"price_of_honor.jpg",
-			"shore_to_please.jpg"
+			"shore_to_please.jpg",
+			"conquer_cancer.jpg"
 		]},
 		{"short_name": "new_mexico", "full_name": "New Mexico", "thumbnail": "standard_1999.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Mexico", "photos": [
@@ -85,7 +97,11 @@
 			"standard_2010_schoolbus.jpg",
 			"war_on_terror.jpg",
 			"sheriffs_association.jpg",
-			"nyc_sheriff.jpg"
+			"nyc_sheriff.jpg",
+			"standard_2001.jpg",
+			"jsc_appellate_division.jpg",
+			"new_york_press.jpg",
+			"nascar.jpg"
 		]},
 		{"short_name": "ohio", "full_name": "Ohio", "thumbnail": "standard_2009.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Ohio", "photos": [
@@ -115,12 +131,17 @@
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Tennessee", "photos": [
 			"standard_2016.jpg"
 		]},
+		{"short_name": "washington", "full_name": "Washington", "thumbnail": "standard_2010.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Washington", "photos": [
+			"standard_2010.jpg"
+		]},
 		{"short_name": "washington_dc", "full_name": "Washington DC", "thumbnail": "standard_2013.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Washington,_D.C.", "photos": [
 			"standard_2013.jpg"
 		]},
-		{"short_name": "virginia", "full_name": "Virginia", "thumbnail": "wildflowers.jpg",
+		{"short_name": "virginia", "full_name": "Virginia", "thumbnail": "standard_2008.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Virginia", "photos": [
+			"standard_2008.jpg",
 			"wildflowers.jpg"
 		]},
 		{"short_name": "vermont", "full_name": "Vermont", "thumbnail": "standard_1990.jpg",
