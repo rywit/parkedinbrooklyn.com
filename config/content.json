@@ -11,8 +11,14 @@
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Arkansas", "photos": [
 			"standard_2006.jpg"
 		]},
-		{"short_name": "connecticut", "full_name": "Connecticut", "thumbnail": "standard_commercial.jpg",
+		{"short_name": "colorado", "full_name": "Colorado", "thumbnail": "standard_2000.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Colorado", "photos": [
+			"standard_2000.jpg",
+			"us_army.jpg"
+		]},
+		{"short_name": "connecticut", "full_name": "Connecticut", "thumbnail": "standard_2000.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Connecticut", "photos": [
+			"standard_2000.jpg",
 			"standard_commercial.jpg",
 			"uconn_huskies.jpg"
 		]},
@@ -44,6 +50,10 @@
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Iowa", "photos": [
 			"standard_2018.jpg"
 		]},
+		{"short_name": "kentucky", "full_name": "Kentucky", "thumbnail": "standard_2005.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Kentucky", "photos": [
+			"standard_2005.jpg"
+		]},
 		{"short_name": "louisiana", "full_name": "Louisiana", "thumbnail": "bicentennial_2012.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Louisiana", "photos": [
 			"bicentennial_2012.jpg"
@@ -58,17 +68,20 @@
 			"standard_2016.jpg",
 			"treasure_the_chesapeake.jpg",
 			"our_farms_our_future_2001.jpg",
-			"penn_state_alumni.jpg"
+			"penn_state_alumni.jpg",
+			"standard_2010.jpg"
 		]},
 		{"short_name": "massachusetts", "full_name": "Massachusetts", "thumbnail": "standard_1987.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Massachusetts", "photos": [
 			"standard_1987.jpg",
 			"great_white.jpg",
-			"invest_in_children.jpg"
+			"invest_in_children.jpg",
+			"preserve_the_trust.jpg"
 		]},
 		{"short_name": "michigan", "full_name": "Michigan", "thumbnail": "standard_2013.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Michigan", "photos": [
-			"standard_2013.jpg"
+			"standard_2013.jpg",
+			"standard_2007.jpg"
 		]},
 		{"short_name": "minnesota", "full_name": "Minnesota", "thumbnail": "standard_2009.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Minnesota", "photos": [
@@ -113,13 +126,26 @@
 			"new_york_press.jpg",
 			"nascar.jpg",
 			"conserve_open_space.jpg",
+			"conserve_open_space2.jpg",
 			"standard_commercial.jpg",
-			"amateur_radio.jpg"
+			"amateur_radio.jpg",
+			"world_series_2009.jpg",
+			"new_york_rangers.jpg",
+			"dentist.jpg",
+			"standard_transporter.jpg"
+		]},
+		{"short_name": "north_carolina", "full_name": "North Carolina", "thumbnail": "friends_of_the_smokies.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_North_Carolina", "photos": [
+			"friends_of_the_smokies.jpg"
 		]},
 		{"short_name": "ohio", "full_name": "Ohio", "thumbnail": "standard_2009.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Ohio", "photos": [
 			"standard_2009.jpg",
 			"purple_heart.jpg"
+		]},
+		{"short_name": "oklahoma", "full_name": "Oklahoma", "thumbnail": "standard_2017.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Oklahoma", "photos": [
+			"standard_2017.jpg"
 		]},
 		{"short_name": "oregon", "full_name": "Oregon", "thumbnail": "standard_2004.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Oregon", "photos": [
@@ -129,7 +155,8 @@
 		{"short_name": "pennsylvania", "full_name": "Pennsylvania", "thumbnail": "standard_2017.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Pennsylvania", "photos": [
 			"standard_2017.jpg",
-			"preserve_our_heritage.jpg"
+			"preserve_our_heritage.jpg",
+			"standard_2017_truck.jpg"
 		]},
 		{"short_name": "rhode_island", "full_name": "Rhode Island", "thumbnail": "standard_1996.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Rhode_Island", "photos": [
@@ -154,11 +181,15 @@
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Washington,_D.C.", "photos": [
 			"standard_2013.jpg"
 		]},
-		{"short_name": "virginia", "full_name": "Virginia", "thumbnail": "standard_2008.jpg",
+		{"short_name": "virginia", "full_name": "Virginia", "thumbnail": "standard_2014.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Virginia", "photos": [
+			"standard_2014.jpg",
 			"standard_2008.jpg",
 			"wildflowers.jpg",
-			"christopher_newport_university.jpg"
+			"christopher_newport_university.jpg",
+			"wildlife_conservationist.jpg",
+			"virginia_400th_anniversary.jpg",
+			"professional_firefighter.jpg"
 		]},
 		{"short_name": "vermont", "full_name": "Vermont", "thumbnail": "standard_1990.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Vermont", "photos": [
