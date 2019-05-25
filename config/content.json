@@ -4,23 +4,30 @@
 		{"title": "Other", "href": "other/index.html", "thumbnail": "other/ontario_standard_1997.jpg"}
 	],
 
- 	"other": ["diplomat.jpg", "ontario_standard_1997.jpg"],
+ 	"other": ["diplomat.jpg", "ontario_standard_1997.jpg", "quebec_standard_2009.jpg",  "us_government.jpg"],
  
  	"states":[
 		{"short_name": "arkansas", "full_name": "Arkansas", "thumbnail": "standard_2006.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Arkansas", "photos": [
 			"standard_2006.jpg"
 		]},
+		{"short_name": "california", "full_name": "California", "thumbnail": "standard_2011.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_California", "photos": [
+			"standard_2011.jpg"
+		]},
 		{"short_name": "colorado", "full_name": "Colorado", "thumbnail": "standard_2000.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Colorado", "photos": [
 			"standard_2000.jpg",
-			"us_army.jpg"
+			"us_army.jpg",
+			"standard_2015.jpg"
 		]},
 		{"short_name": "connecticut", "full_name": "Connecticut", "thumbnail": "standard_2000.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Connecticut", "photos": [
 			"standard_2000.jpg",
 			"standard_commercial.jpg",
-			"uconn_huskies.jpg"
+			"uconn_huskies.jpg",
+			"greenways.jpg",
+			"standard_dealer.jpg"
 		]},
 		{"short_name": "delaware", "full_name": "Delaware", "thumbnail": "standard_2008.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Delaware", "photos": [
@@ -30,7 +37,10 @@
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Florida", "photos": [
 			"sunshine_state.jpg",
 			"florida_atlantic_university.jpg",
-			"john_lennon_imagine.jpg"
+			"john_lennon_imagine.jpg",
+			"helping_sea_turtles_survive.jpg",
+			"marine_corps.jpg",
+			"protect_our_reefs.jpg"
 		]},
 		{"short_name": "georgia", "full_name": "Georgia", "thumbnail": "standard_2012.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Georgia", "photos": [
@@ -61,7 +71,8 @@
 		{"short_name": "maine", "full_name": "Maine", "thumbnail": "standard_1999.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Maine", "photos": [
 			"standard_1999.jpg",
-			"trailer.jpg"
+			"trailer.jpg",
+			"support_local_agriculture.jpg"
 		]},
 		{"short_name": "maryland", "full_name": "Maryland", "thumbnail": "standard_2016.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Maryland", "photos": [
@@ -76,7 +87,8 @@
 			"standard_1987.jpg",
 			"great_white.jpg",
 			"invest_in_children.jpg",
-			"preserve_the_trust.jpg"
+			"preserve_the_trust.jpg",
+			"cape_cod_and_islands.jpg"
 		]},
 		{"short_name": "michigan", "full_name": "Michigan", "thumbnail": "standard_2013.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Michigan", "photos": [
@@ -85,11 +97,16 @@
 		]},
 		{"short_name": "minnesota", "full_name": "Minnesota", "thumbnail": "standard_2009.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Minnesota", "photos": [
-			"standard_2009.jpg"
+			"standard_2009.jpg",
+			"reinvest_in_minnesota.jpg"
 		]},
 		{"short_name": "missouri", "full_name": "Missouri", "thumbnail": "standard_2008.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Missouri", "photos": [
 			"standard_2008.jpg"
+		]},
+		{"short_name": "nevada", "full_name": "Nevada", "thumbnail": "standard_2016.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Nevada", "photos": [
+			"standard_2016.jpg"
 		]},
 		{"short_name": "new_hampshire", "full_name": "New Hampshire", "thumbnail": "standard_1999.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Hampshire", "photos": [
@@ -106,7 +123,9 @@
 			"standard_commercial.jpg",
 			"price_of_honor.jpg",
 			"shore_to_please.jpg",
-			"conquer_cancer.jpg"
+			"conquer_cancer.jpg",
+			"animal_friendly.jpg",
+			"npdf_safe_cop.jpg"
 		]},
 		{"short_name": "new_mexico", "full_name": "New Mexico", "thumbnail": "standard_1999.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Mexico", "photos": [
@@ -132,11 +151,17 @@
 			"world_series_2009.jpg",
 			"new_york_rangers.jpg",
 			"dentist.jpg",
-			"standard_transporter.jpg"
+			"standard_transporter.jpg",
+			"veteran_flag.jpg",
+			"standard_ambulance.jpg",
+			"volunteer_ambulance_service.jpg",
+			"volunteer_firefighter.jpg",
+			"new_york_giants.jpg"
 		]},
 		{"short_name": "north_carolina", "full_name": "North Carolina", "thumbnail": "friends_of_the_smokies.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_North_Carolina", "photos": [
-			"friends_of_the_smokies.jpg"
+			"friends_of_the_smokies.jpg",
+			"standard_weighted.jpg"
 		]},
 		{"short_name": "ohio", "full_name": "Ohio", "thumbnail": "standard_2009.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Ohio", "photos": [
@@ -150,13 +175,16 @@
 		{"short_name": "oregon", "full_name": "Oregon", "thumbnail": "standard_2004.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Oregon", "photos": [
 			"standard_2004.jpg",
-			"share_the_road.jpg"
+			"share_the_road.jpg",
+			"standard_apportioned.jpg"
 		]},
 		{"short_name": "pennsylvania", "full_name": "Pennsylvania", "thumbnail": "standard_2017.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Pennsylvania", "photos": [
 			"standard_2017.jpg",
 			"preserve_our_heritage.jpg",
-			"standard_2017_truck.jpg"
+			"standard_2017_truck.jpg",
+			"national_police_defense_foundation.jpg",
+			"save_wild_animals.jpg"
 		]},
 		{"short_name": "rhode_island", "full_name": "Rhode Island", "thumbnail": "standard_1996.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Rhode_Island", "photos": [
@@ -189,7 +217,9 @@
 			"christopher_newport_university.jpg",
 			"wildlife_conservationist.jpg",
 			"virginia_400th_anniversary.jpg",
-			"professional_firefighter.jpg"
+			"professional_firefighter.jpg",
+			"red_cardinal.jpg",
+			"falling_leaves.jpg"
 		]},
 		{"short_name": "vermont", "full_name": "Vermont", "thumbnail": "standard_1990.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Vermont", "photos": [
@@ -202,6 +232,10 @@
 		{"short_name": "wisconsin", "full_name": "Wisconsin", "thumbnail": "standard_2000.jpg",
 			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Wisconsin", "photos": [
 			"standard_2006.jpg"
+		]},
+		{"short_name": "wyoming", "full_name": "Wyoming", "thumbnail": "standard_truck.jpg",
+			"href": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Wyoming", "photos": [
+			"standard_truck.jpg"
 		]}
 	]
 }
